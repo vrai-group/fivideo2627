@@ -1,0 +1,28 @@
+# C build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+a.out
+*.d
+
+# Build directories
+build/
+bin/
+obj/
+
+# Coverage and profiling data
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# Core dumps
+core
+core.*
