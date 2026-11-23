@@ -11,16 +11,18 @@ int main(void)
         lunghezza++;
         if (parola[i] == 'a')
             numeroDiA++;
+    }
     // OPPURE usando i puntatori
     lunghezza = 0;
-    int numeroDiA = 0;
+    numeroDiA = 0;
     for(char *pc = parola; *pc != '\0'; pc++) {
-        l++;
+        lunghezza++;
         if (*pc == 'a')
             numeroDiA++;
     }
 
     printf("Lunghezza di '%s': %d\n", parola, lunghezza);
+    printf("Numero di 'a' in '%s': %d\n", parola, numeroDiA);
 
     return 0;
 }
