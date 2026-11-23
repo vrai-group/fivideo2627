@@ -6,18 +6,9 @@ int main(void)
     int lunghezza = 0;
     int numeroDiA = 0;
 
-    // TODO: conta i caratteri (senza strlen) e le occorrenze di 'a'
-    for(int i = 0; parola[i] != '\0'; i++) {
+    for (int i = 0; parola[i] != '\0'; i++) {
         lunghezza++;
         if (parola[i] == 'a')
-            numeroDiA++;
-    }
-    // OPPURE usando i puntatori
-    lunghezza = 0;
-    numeroDiA = 0;
-    for(char *pc = parola; *pc != '\0'; pc++) {
-        lunghezza++;
-        if (*pc == 'a')
             numeroDiA++;
     }
 

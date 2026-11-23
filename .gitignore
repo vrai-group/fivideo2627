@@ -1,28 +1,55 @@
-# C build artifacts
-*.o
-*.obj
-*.a
-*.lib
-*.so
-*.dylib
-*.dll
-*.exe
-*.out
-a.out
+# Prerequisites
 *.d
 
-# Build directories
-build/
-bin/
-obj/
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
 
-# Coverage and profiling data
-*.gcda
-*.gcno
-*.gcov
-*.profraw
-*.profdata
+# Linker output
+*.ilk
+*.map
+*.exp
 
-# Core dumps
-core
-core.*
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# debug information files
+*.dwo
